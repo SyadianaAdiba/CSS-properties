@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1 {
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        font-style: bold;
+        font-size: 70;
+        color:black;
+        background-color: burlywood;
+        border:brown;
+        border-style:dotted;
+        border-top-width:2px;
+        border-bottom-width: 10px;
+        border-radius: 100px;
+        width:300px;
+        margin:auto;
+    }
+    p {
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        font-style: bold;
+        font-size: 40;
+        color:brown;
+        background-image: url(bc.jpg);
+        border-radius: 10px;
+    }
+    div ~ h3 
+        #heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 80;
+      width: 50px;
+      height: 80px;
+      background: rgb(151, 103, 15);
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+        }
+      </style>
+</head>
+    <body style="background-image: url(wall.jpg);">
+    <div>
+        <h1>WEB DESIGN</h1>
+     </div>
+    <p>SYADIANA ADIBA BINTI MOHD IZWAN</p>
+    <p>18DDT19F1076</p>
+    <p>DDT4D</p>
+    <h3 id="heart"></h3>
+</div>
+</body>
+</html>
